@@ -36,9 +36,17 @@ const countdown5to0 = () => {
         console.log(i);
     };
 };
-countdown5to0()
+//countdown5to0()
 
 //   loopUpToNum,
+
+const loopUpToNum = (num) => {
+    for (let i = 0; i < num; i++) {
+        console.log(i);
+    };
+};
+//loopUpToNum(40)
+
 //   fizzbuzz,
 // } = require('./from-scratch');
 // const {
