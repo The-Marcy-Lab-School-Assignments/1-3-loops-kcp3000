@@ -1,6 +1,10 @@
 const loop0UpTo10 = () => {
-};
-
+  //let arr = [];
+  for (let i = 0; i < 10; i++) {
+    //arr.push(i)
+    console.log(i)
+  };
+}
 const loop5to10 = () => {
 };
 
