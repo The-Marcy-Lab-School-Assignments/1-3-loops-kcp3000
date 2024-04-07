@@ -25,8 +25,8 @@ const loop5to10 = () => {
 const loopEvenNumbersUpTo10 = () => {
     for (let i = 0; i < 9; i += 2) {
         console.log(i)
-    }
-}
+    };
+};
 //loopEvenNumbersUpTo10()
 
 //   countdown5to0,
