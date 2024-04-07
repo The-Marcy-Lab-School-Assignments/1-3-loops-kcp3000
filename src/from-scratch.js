@@ -20,6 +20,9 @@ const loopEvenNumbersUpTo10 = () => {
 };
 
 const countdown5to0 = () => {
+  for (let i = 5; i >= 0; i--) {
+    console.log(i);
+  };
 };
 
 const loopUpToNum = () => {

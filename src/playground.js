@@ -30,6 +30,14 @@ const loopEvenNumbersUpTo10 = () => {
 //loopEvenNumbersUpTo10()
 
 //   countdown5to0,
+
+const countdown5to0 = () => {
+    for (let i = 5; i >= 0; i--) {
+        console.log(i);
+    };
+};
+countdown5to0()
+
 //   loopUpToNum,
 //   fizzbuzz,
 // } = require('./from-scratch');
