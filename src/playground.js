@@ -48,6 +48,17 @@ const loopUpToNum = (num) => {
 //loopUpToNum(40)
 
 //   fizzbuzz,
+
+const fizzbuzz = () => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) console.log('fuzzbuzz')
+        if (i % 5 === 0 && i % 3 !== 0) console.log('buzz')
+        if (i % 3 === 0 && i % 5 !== 0) console.log('fizz')
+        if (i % 3 !== 0 && i % 5 !== 0) console.log(i)
+    };
+};
+//fizzbuzz()
+
 // } = require('./from-scratch');
 // const {
 //   whileToFor,
@@ -57,3 +68,8 @@ const loopUpToNum = (num) => {
 //   brokenNested,
 //   brokenLoop,
 // } = require('./debug');
+
+// for (let i = 0; i < 10; i++) {
+//     if (!(i > 7)) //break;
+//         console.log(i)
+// }
