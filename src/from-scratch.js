@@ -1,3 +1,4 @@
+/** FEEDBACK: As a habit, you should remove any commented out code before submitting! */
 const loop0UpTo10 = () => {
   //let arr = [];
   for (let i = 0; i < 10; i++) {
@@ -30,7 +31,24 @@ const loopUpToNum = (num) => {
     console.log(i);
   };
 };
-
+/** FEEDBACK: I love that you are covering your bases however I do want to name that if you were to use if/else statements, you could avoid being specific with many singular if statements as the if/else statements would be interconnected and based off of one another. 
+ * The code could look like this instead:
+ * const fizzbuzz = () => {
+    for (let i = 1; i <= 100; i++) {
+      if (i % 3 === 0 && i % 5 === 0){
+        console.log('fizzbuzz')
+      } else if (i % 5 === 0){
+        console.log('buzz')
+      } else if (i % 3 === 0){
+        console.log('fizz')
+      } else {
+        console.log(i)
+      }
+    };
+  };
+ * Notice the conditions and how they go from very specific to broad! 
+ * Also notice the way I spaced things out so that I could see where one condition ended and another started! 
+ */
 const fizzbuzz = () => {
   for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) console.log('fizzbuzz')
